@@ -12,11 +12,11 @@ html {
 body {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
-  background-color: skyblue;
+  background-color: whitesmoke;
 }
 
 #canvas {
-  border: 1px solid black;
+  border: 1px solid red;
   width: 512px;
   height: 512px;
   margin: auto;

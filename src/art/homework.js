@@ -17,8 +17,8 @@ let n = makeNoise3D();
 function shade(x, y, t) {
     //❓❓ Question 2
     //❓❓ Question 3
-    //❓❓ Question 4
-    return [1,0,1];
+    
+    return [0,0,0];
 }
 
 /**
@@ -30,9 +30,15 @@ function draw(ctx, t) {
     //See https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D
     ctx.lineWidth = 2;
     ctx.strokeStyle = 'black';
-    //❓❓ Question 5
+    circle(108, 94, 2);
+    ctx.fill();
     //❓❓ Question 6
-    ctx.strokeRect(75, 100, 150, 100);
+   cctx.strokeRect(x,y,0); 
 }
 
-export default { name: "My Homework", shade, draw }
+
+
+
+
+export default { name: "Captain America", shade, draw }
+
